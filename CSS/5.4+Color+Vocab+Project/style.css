@@ -1,0 +1,31 @@
+/* Match each Spanish colour title to its meaning */
+#red {
+  color: red;
+}
+
+#blue {
+  color: blue;
+}
+
+#orange {
+  color: orange;
+}
+
+#green {
+  color: green;
+}
+
+#yellow {
+  color: yellow;
+}
+
+/* Remove bold styling from the colour titles */
+.color-title {
+  font-weight: normal;
+}
+
+/* Make every image 200px wide and 200px tall */
+img {
+  width: 200px;
+  height: 200px;
+}

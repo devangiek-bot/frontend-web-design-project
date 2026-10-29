@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 50px 30px;
+  background-color: white;
+  color: black;
+  font-family: "Times New Roman", serif;
+}
+
+main {
+  max-width: 1050px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px 8px;
+  font-size: 16px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.timetable {
+  width: 100%;
+  min-width: 950px;
+  table-layout: fixed;
+  text-align: center;
+  font-size: 14px;
+}
+
+th,
+td {
+  border: 1px solid #888888;
+  padding: 2px;
+  vertical-align: middle;
+}
+
+.day-column {
+  width: 80px;
+}
+
+.lunch-column {
+  width: 60px;
+}
+
+.timetable thead th {
+  height: 44px;
+}
+
+.timetable tbody th {
+  font-size: 11px;
+}
+
+.lunch {
+  font-weight: bold;
+}
+
+.green {
+  background-color: #a9d18e;
+}
+
+.blue {
+  background-color: #9dc3e6;
+}
+
+.saturday {
+  height: 18px;
+}
+
+.arrow {
+  position: relative;
+  width: 80%;
+  height: 2px;
+  margin: 4px auto;
+  background-color: #548235;
+}
+
+.arrow::before,
+.arrow::after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+.arrow::before {
+  left: -1px;
+  border-right: 7px solid #548235;
+}
+
+.arrow::after {
+  right: -1px;
+  border-left: 7px solid #548235;
+}
+
+.blue-arrow {
+  background-color: #4472c4;
+}
+
+.blue-arrow::before {
+  border-right-color: #4472c4;
+}
+
+.blue-arrow::after {
+  border-left-color: #4472c4;
+}
+
+.teachers {
+  width: 85%;
+  margin: 22px 28px 0;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.teachers th,
+.teachers td {
+  padding: 1px 7px;
+}
+
+.signature {
+  margin-top: 18px;
+  text-align: right;
+  font-weight: bold;
+}
